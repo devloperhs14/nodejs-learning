@@ -1,12 +1,15 @@
 # STEP 1
-Clone the repo
+Clone the repo & navigate to login-app folder using: 
+```
+cd login-app
+```
+
+Next run the follow commands in terminal:
+```
+npm install bcrypt body-parser dotenv ejs express express-session mongoose
+```
 
 # Step 2
-* Navigate to login-app folder using:
-  ```
-  cd login-app
-  ```
-  
 * Change the `env.example` file to `.env` file
 
 * In env do following changes
@@ -27,4 +30,5 @@ Open **localhost//3301**
 
 ## ERROR?
 `Error: listen EADDRINUSE: address already in use :::3001`
+
 head to .env and change the port number

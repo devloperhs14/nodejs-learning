@@ -1,2 +1,2 @@
 # nodejs-learning
-nodejs projects for kearning purposes
+nodejs projects for learning purposes
